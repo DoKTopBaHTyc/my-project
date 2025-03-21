@@ -1,0 +1,108 @@
+.air-page {
+  background-color: #e0f7fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.water-page {
+  background-color: #e3f2fd;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.earth-page {
+  background-color: #e8f5e9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-body .btn:last-child {
+  margin-bottom: 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}

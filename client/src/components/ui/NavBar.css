@@ -1,0 +1,122 @@
+/* NavBar.css */
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(90deg, #f0f4ff, #d9e4ff);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    transition: transform 0.2s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #1a1a1a;
+  }
+  
+  .navbar-brand:hover {
+    transform: translateY(-2px);
+  }
+  
+  .nav-link {
+    transition: all 0.2s ease-in-out;
+    color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    transform: translateY(-2px);
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #1a1a1a;
+  }
+  
+  .cart-button {
+    transition: all 0.2s ease-in-out;
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cart-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #0b5ed7;
+  }
+  
+  .nav-icon {
+    transition: transform 0.2s ease-in-out;
+    color: #1a1a1a;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .badge {
+    transition: all 0.2s ease-in-out;
+    background-color: #dc3545;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .badge:hover {
+    transform: scale(1.1);
+  }
+  
+  .site-title {
+    background: linear-gradient(90deg, #0d6efd, #0b5ed7);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 5s ease infinite;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  @keyframes gradientText {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .site-title-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .site-title-breathe {
+    animation: breathe 3s ease-in-out infinite;
+  }
+  
+  @keyframes breathe {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

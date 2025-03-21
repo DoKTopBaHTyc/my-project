@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: '../server/dist',
   },
-  base: '/',
+  base: '/my-project/',
 });
 
 // export default defineConfig({

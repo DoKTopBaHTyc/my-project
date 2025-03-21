@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "db:setup": "NODE_ENV=production npx sequelize db:migrate && NODE_ENV=production npx sequelize db:seed:all",
+    "start": "NODE_ENV=production node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc"
   },

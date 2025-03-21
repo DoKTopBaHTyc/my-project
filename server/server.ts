@@ -1,8 +1,8 @@
-import express from "express";
-import cors from "cors";
-import axios from "axios";
-import dotenv from "dotenv";
-import path from "path";
+const express = require("express");
+const cors = require("cors");
+const axios = require("axios");
+const dotenv = require("dotenv");
+const path = require("path");
 
 dotenv.config();
 
